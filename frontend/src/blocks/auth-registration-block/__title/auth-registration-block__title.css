@@ -1,0 +1,17 @@
+.auth-registration-block__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (max-width: 575px) {
+  .auth-registration-block__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "extends": [
+    "react-app",
+    "prettier"
+  ],
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true,
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "no-var": "error",
+    "semi": "error",
+    "indent": [
+      "error",
+      2
+    ],
+    "no-console": "off",
+    "no-multi-spaces": "error",
+    "space-in-parens": "error",
+    "no-multiple-empty-lines": "error",
+    "react/jsx-uses-react": "error",
+    "prefer-const": "error",
+    "no-use-before-define": "error",
+    "react/jsx-uses-vars": "error",
+    "react/jsx-max-props-per-line": [
+      1,
+      {
+        "when": "multiline"
+      }
+    ]
+  }
+}

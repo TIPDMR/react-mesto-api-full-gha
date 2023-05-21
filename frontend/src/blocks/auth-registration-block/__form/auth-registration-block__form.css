@@ -1,0 +1,13 @@
+.auth-registration-block__form {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 575px) {
+  .auth-registration-block__form {
+    margin-top: 40px;
+    padding: 0 30px;
+  }
+}

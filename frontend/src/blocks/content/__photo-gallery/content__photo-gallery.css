@@ -1,0 +1,15 @@
+.content__photo-gallery {
+  margin: 50px 0 0;
+}
+
+@media screen and (max-width: 918px) {
+  .content__photo-gallery {
+    margin: 50px 19px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .content__photo-gallery {
+    margin-top: 36px;
+  }
+}

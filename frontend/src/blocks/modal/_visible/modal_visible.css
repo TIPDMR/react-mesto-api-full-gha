@@ -1,0 +1,4 @@
+.modal_visible {
+  pointer-events: all;
+  opacity: 1;
+}

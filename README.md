@@ -4,12 +4,12 @@
   
 Пожалуйста, прикрепите в это описание ссылку на сайт, размещенный на Яндекс.Облаке.
 
-Адрес репозитория: https://github.com/...
+Адрес репозитория: https://github.com/TIPDMR/react-mesto-api-full-gha
 
 ## Ссылки на проект
 
-IP-адрес x.x.x.x
+IP  195.133.144.142
+Frontend  https://best-mesto.ru
+Backend  https://api.best-mesto.ru
 
-Frontend https://...
-
-Backend https://...
+Ссылка на репозиторий - https://github.com/TIPDMR/react-mesto-api-full-gha

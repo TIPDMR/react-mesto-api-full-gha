@@ -1,0 +1,10 @@
+.modal__button_disabled {
+  background-color: #fff;
+  cursor: default;
+  border: 1px solid rgba(0, 0, 0, .2);
+  color: rgba(0, 0, 0, .2);
+}
+
+.modal__button_disabled:hover {
+  background-color: #fff;
+}

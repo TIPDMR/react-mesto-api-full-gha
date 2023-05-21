@@ -1,0 +1,11 @@
+.page__auth-registration-block {
+  font-family: 'Inter';
+  padding-top: 60px;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 575px) {
+  .page__auth-registration-block {
+    padding-top: 40px;
+  }
+}

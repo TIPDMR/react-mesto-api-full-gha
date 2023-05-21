@@ -1,0 +1,11 @@
+.photo-gallery__figcaption {
+  background-color: white;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 10px 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,29 @@
+.profile {
+  display: flex;
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+@media screen and (max-width: 768px) {
+  .profile {
+      flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .profile {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .profile {
+    gap: 26px;
+  }
+}

@@ -1,0 +1,19 @@
+.modal__container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 430px;
+  background-color: white;
+  padding: 34px 36px 37px 36px;
+  border-radius: 10px;
+  transition: .1s;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (max-width: 575px) {
+  .modal__container {
+    padding: 25px 22px;
+    margin: 0 19px;
+  }
+}

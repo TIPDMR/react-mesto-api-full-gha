@@ -1,0 +1,15 @@
+.auth-registration-block__input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  color: white;
+  padding: 0 0 8px;
+  outline: none;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.auth-registration-block__input::placeholder {
+  color: #ccc;
+  opacity: 1;
+}

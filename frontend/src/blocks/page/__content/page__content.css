@@ -1,0 +1,10 @@
+.page__content {
+  margin: 40px 0 0;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 575px) {
+  .page__content {
+    margin: 42px 0 0;
+  }
+}

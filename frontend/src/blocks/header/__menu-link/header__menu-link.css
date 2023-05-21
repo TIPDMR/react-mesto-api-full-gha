@@ -1,0 +1,17 @@
+.header__menu-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+  text-decoration: none;
+  align-self: center;
+}
+
+
+@media screen and (max-width: 575px) {
+  .header__menu-link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

@@ -1,0 +1,8 @@
+.modal__img {
+  max-width: 75vw;
+  max-height: 75vh;
+  min-width: 282px;
+  object-fit: cover;
+  object-position: center;
+  overflow: auto;
+}

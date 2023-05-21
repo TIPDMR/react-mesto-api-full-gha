@@ -1,0 +1,14 @@
+.auth-registration-block__link {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+  .auth-registration-block__link {
+    margin-top: 20px;
+  }
+}

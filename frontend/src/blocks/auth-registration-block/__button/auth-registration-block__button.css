@@ -1,0 +1,28 @@
+.auth-registration-block__button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 100%;
+  padding: 12px 0;
+  cursor: pointer;
+  margin-top: 187px;
+  border-radius: 2px;
+}
+
+
+@media screen and (max-width: 918px) {
+  .auth-registration-block__button {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 12px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .auth-registration-block__button {
+    margin-top: 143px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

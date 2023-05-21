@@ -1,0 +1,22 @@
+.photo-gallery__button_action_like {
+  min-width: 24px;
+  min-height: 24px;
+  background-image: url(../../../../images/ui/hearth-white.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  transition: .3s linear;
+}
+
+.photo-gallery__button_action_like:hover {
+  opacity: 0.5;
+}
+
+@media (max-width: 575px) {
+  .photo-gallery__button_action_like {
+    min-width: 22px;
+    min-height: 22px;
+  }
+}

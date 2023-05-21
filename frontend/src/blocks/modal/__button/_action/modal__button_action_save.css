@@ -1,0 +1,22 @@
+.modal__button_action_save {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(0, 0, 0, 1);
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+  border-radius: 2px;
+  transition: .3s linear;
+  margin-top: 18px;
+}
+
+.modal__button_action_save:hover {
+  background-color: rgba(0, 0, 0, .8);
+}
+
+@media screen and (max-width: 575px) {
+  .modal__button_action_save {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
