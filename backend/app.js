@@ -61,7 +61,7 @@ app.get('/crash-test', () => {
     throw new Error('Сервер сейчас упадёт');
   }, 0);
 });
-// app.use(checkAuthorizedUser);
+
 app.use('/', auth);
 app.use('/users', checkAuthorizedUser, users);
 app.use('/cards', checkAuthorizedUser, cards);

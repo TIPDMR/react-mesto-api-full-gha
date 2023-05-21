@@ -1,4 +1,4 @@
-export const BASE_URL = 'http://localhost:3000';
+import {API_URL} from "./constants";
 
 const resValidation = (response) => {
   if (!response.ok) {
@@ -12,7 +12,7 @@ const resValidation = (response) => {
   return response.json();
 };
 
-export const register = (email, password) => fetch(`${BASE_URL}/signup`, {
+export const register = (email, password) => fetch(`${API_URL}/signup`, {
   method: 'POST',
   credentials: "include",
   headers: {
@@ -22,7 +22,7 @@ export const register = (email, password) => fetch(`${BASE_URL}/signup`, {
   body: JSON.stringify({email, password}),
 }).then((res) => resValidation(res));
 
-export const authorize = (email, password) => fetch(`${BASE_URL}/signin`, {
+export const authorize = (email, password) => fetch(`${API_URL}/signin`, {
   method: 'POST',
   credentials: "include",
   headers: {
@@ -32,7 +32,7 @@ export const authorize = (email, password) => fetch(`${BASE_URL}/signin`, {
   body: JSON.stringify({email, password}),
 }).then((res) => resValidation(res));
 
-export const checkToken = () => fetch(`${BASE_URL}/users/me`, {
+export const checkToken = () => fetch(`${API_URL}/users/me`, {
   method: 'GET',
   credentials: "include",
   headers: {
@@ -43,7 +43,7 @@ export const checkToken = () => fetch(`${BASE_URL}/users/me`, {
   .then((res) => resValidation(res))
   .then((data) => data);
 
-export const logout = () => fetch(`${BASE_URL}/signout`, {
+export const logout = () => fetch(`${API_URL}/signout`, {
   method: 'GET',
   credentials: "include",
   headers: {
