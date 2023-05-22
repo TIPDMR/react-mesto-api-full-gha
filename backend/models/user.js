@@ -60,7 +60,6 @@ userSchema.statics.findUserByCredentials = function findUserByCredentials(email,
           if (!matched) {
             return Promise.reject(new Unauthorized('Неправильные почта или пароль'));
           }
-
           return user;
         });
     });
