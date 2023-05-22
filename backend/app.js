@@ -55,13 +55,6 @@ app.use(corsFilters);
 /**
  * Роуты приложения
  */
-app.get('/crash-test', () => {
-  setTimeout(() => {
-    console.log('s');
-    throw new Error('Сервер сейчас упадёт');
-  }, 0);
-});
-
 app.use('/', auth);
 app.use('/users', checkAuthorizedUser, users);
 app.use('/cards', checkAuthorizedUser, cards);
