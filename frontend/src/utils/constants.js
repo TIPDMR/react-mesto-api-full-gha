@@ -1,1 +1,1 @@
-module.exports.API_URL = 'https://api.best-mesto.ru';
+module.exports.API_URL = '//api.best-mesto.ru';
