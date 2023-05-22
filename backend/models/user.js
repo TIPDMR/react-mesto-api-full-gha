@@ -9,7 +9,6 @@ const userSchema = new mongoose.Schema({
   email: {
     type: String,
     trim: true,
-    select: false,
     lowercase: true,
     required: [true, 'Email не может быть пустым'],
     unique: [true, 'Email занят другим пользователем'],
@@ -24,7 +23,6 @@ const userSchema = new mongoose.Schema({
     required: [true, 'Пароль не может быть пустым'],
     select: false,
     minlength: [2, 'Пароль должен быть не короче 2 символов'],
-    // maxlength: [30, 'Пароль должен быть не длиннее 30 символов'],
   },
   name: {
     type: String,
@@ -51,7 +49,7 @@ const userSchema = new mongoose.Schema({
 
 userSchema.statics.findUserByCredentials = function findUserByCredentials(email, password) {
   return this.findOne({ email })
-    .select('+password +email')
+    .select('+password')
     .then((user) => {
       if (!user) {
         return Promise.reject(new Unauthorized('Неправильные почта или пароль'));

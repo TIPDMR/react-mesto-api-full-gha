@@ -12,7 +12,6 @@ const JwtToken = NODE_ENV === 'production' ? JWT_SECRET : 'dev-secret';
 module.exports.getUserInfo = (req, res, next) => {
   const { _id } = req.user;
   User.findById(_id)
-    .select('+email')
     .orFail()
     .then((user) => res.send(user))
     .catch((err) => errorHandler(err, res, next));
@@ -46,7 +45,7 @@ module.exports.createUser = (req, res, next) => {
   });
 
   User.findOne({ email })
-    .select('+password +email')
+    .select('+password')
     .then((existingUser) => {
       if (existingUser) {
         return next(new Conflict('Email занят другим пользователем'));
