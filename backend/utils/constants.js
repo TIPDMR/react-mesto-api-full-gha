@@ -9,4 +9,6 @@ module.exports.ALLOWED_DOMAIN_NAME = [
   'http://www.api.best-mesto.ru',
   'https://www.api.best-mesto.ru',
   'http://localhost:3001',
+  'https:/158.160.62.146',
+  'http://158.160.62.146',
 ];
