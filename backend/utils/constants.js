@@ -4,12 +4,9 @@ module.exports.DEFAULT_ALLOWED_METHODS = 'GET,HEAD,PUT,PATCH,POST,DELETE';
 module.exports.ALLOWED_DOMAIN_NAME = [
   'https://best-mesto.ru',
   'http://best-mesto.ru',
-  'https://www.best-mesto.ru',
-  'http://www.best-mesto.ru',
-  'http://www.api.best-mesto.ru',
-  'https://www.api.best-mesto.ru',
   'http://api.best-mesto.ru',
   'https://api.best-mesto.ru',
-  'https:/158.160.62.146',
-  'http://158.160.62.146',
+  'https:/80.243.140.219',
+  'http://80.243.140.219',
+  'http://localhost:3001',
 ];
